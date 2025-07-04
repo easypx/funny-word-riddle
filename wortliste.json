@@ -1,0 +1,71 @@
+{
+  "Noun": [
+    "dog",
+    "cat",
+    "bird",
+    "fox",
+    "bush",
+    "bike",
+    "cottage",
+    "fruit",
+    "car",
+    "mirror",
+    "sun",
+    "moon",
+    "garden",
+    "night",
+    "day",
+    "yard",
+    "park"
+  ],
+  "Adjective": [
+    "beautiful",
+    "quick",
+    "lazy",
+    "old",
+    "bright",
+    "cold",
+    "hot",
+    "blue",
+    "red",
+    "yellow",
+    "black",
+    "green"
+  ],
+  "Verb": [
+    "make",
+    "do",
+    "drive",
+    "run",
+    "sleep",
+    "see",
+    "look",
+    "swim",
+    "go",
+    "fly",
+    "wait",
+    "cook"
+  ],
+  "Determiner": [
+    "the",
+    "a",
+    "an",
+    "these",
+    "this",
+    "that",
+    "those"
+  ],
+  "Punctuation": [
+    ".",
+    "?",
+    "!"
+  ],
+  "Preposition": [
+    "at",
+    "in",
+    "before",
+    "behind",
+    "under",
+    "over"
+  ]
+}
