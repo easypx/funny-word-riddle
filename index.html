@@ -126,11 +126,11 @@
                 console.log("Wortliste geladen:", Object.keys(wortliste).join(", "));
                 document.getElementById('encryptBtn').disabled = false;
                 document.getElementById('decryptBtn').disabled = false;
-                document.getElementById('status').innerText = "Wortliste erfolgreich geladen.";
+                //document.getElementById('status').innerText = "Wortliste erfolgreich geladen.";
 
             } catch (e) {
                 console.error("Fehler beim Laden der Wortliste:", e);
-                document.getElementById('status').innerText = "Fehler beim Laden der Wortliste.";
+                //document.getElementById('status').innerText = "Fehler beim Laden der Wortliste.";
                 alert("Fehler beim Laden der Wortliste: " + e.message);
             }
         });
