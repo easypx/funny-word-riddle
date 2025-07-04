@@ -30,18 +30,20 @@
 
     <h2>Funny word riddling (eng)</h2>
 
+    <!-- 
     <label for="zipFile">Wortliste ZIP (enthält wortliste.json):</label><br />
     <input type="file" id="zipFile" accept=".zip" /><br /><br />
+    -->
 
-    <label for="seedInput">Seed (für deterministische Verschlüsselung):</label><br />
+    <label for="seedInput">Seed:</label><br />
     <input type="text" id="seedInput" value="MeinSeed123" /><br /><br />
 
     <label for="textInput">Text eingeben:</label><br />
     <textarea id="textInput" rows="5"
         placeholder="The dog runs in the beautiful garden.">The dog sleep at the beautiful day.</textarea><br /><br />
 
-    <button id="encryptBtn" disabled>Verschlüsseln</button>
-    <button id="decryptBtn" disabled>Entschlüsseln</button><br /><br />
+    <button id="encryptBtn" disabled>Riddle</button>
+    <button id="decryptBtn" disabled>Unriddle</button><br /><br />
 
     <h3>Ergebnis:</h3>
     <div id="output"></div>
