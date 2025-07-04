@@ -141,19 +141,19 @@
             if (!wortliste) throw new Error("Wortliste nicht geladen.");
             const seed = hashStringToInt(seedStr || "default");
             const rng = mulberry32(seed);
-            console.log(rng);
+            //console.log(rng);
 
             const permutationen = {};
             for (const posTag in wortliste) {
                 permutationen[posTag] = getPermutation(wortliste[posTag], rng);
             }
-            console.log(permutationen);
+            //console.log(permutationen);
             const doc = nlp(text);
             const terms = doc.terms().out('array');
-            console.log(terms);
+            //console.log(terms);
             const result = terms.map(token => {
                 const termDoc = nlp(token);
-                console.log(termDoc);
+                //console.log(termDoc);
                 for (const posTag of ['Noun', 'Adjective', 'Verb', 'Determiner', 'Punctuation', 'Preposition']) {
                     if (termDoc.has(`#${posTag}`)) {
                         const lowerToken = token.toLowerCase();
